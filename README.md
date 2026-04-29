@@ -53,12 +53,15 @@ cat < file2
 cmp file1 file2
 ## OUTPUT
  ![cmpfile](./img/3.png)
+
 comm file1 file2
  ## OUTPUT
+ ![commfile](./img/4.png)
 
  
 diff file1 file2
 ## OUTPUT
+ ![diffile](./img/5.png)
 
 
 #Filters
@@ -83,16 +86,21 @@ cat > file22
 cut -c1-3 file11
 ## OUTPUT
 
+ ![diffile](./img/6.png)
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
 
+ ![diffile](./img/7.png)
+
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
+
+ ![diffile](./img/8.png)
 
 
 cat < newfile 
@@ -108,39 +116,45 @@ hello world
 grep Hello newfile 
 ## OUTPUT
 
+ ![diffile](./img/9.png)
 
 
 grep hello newfile 
 ## OUTPUT
 
+ ![diffile](./img/10.png)
 
 
 
 grep -v hello newfile 
 ## OUTPUT
 
+ ![diffile](./img/11.png)
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
 
+ ![diffile](./img/12.png)
 
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
 
+ ![diffile](./img/13.png)
 
 
 
 grep -R ubuntu /etc
 ## OUTPUT
 
+ ![diffile](./img/14.png)
 
 
 grep -w -n world newfile   
 ## OUTPUT
-
+ ![diffile](./img/15.png)
 
 cat < newfile 
 ```
@@ -164,45 +178,56 @@ Linux is best in this World
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
 
+ ![diffile](./img/16.png)
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
 
+ ![diffile](./img/17.png)
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
 
+ ![diffile](./img/18.png)
 
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
 
+ ![diffile](./img/19.png)
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
 
+ ![diffile](./img/20.png)
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
 
+ ![diffile](./img/21.png)
+
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
 
+ ![diffile](./img/22.png)
 
 
 egrep '[1-9]' newfile 
 ## OUTPUT
 
+ ![diffile](./img/23.png)
 
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
+
+ ![diffile](./img/24.png)
 
 
 egrep 'Linux.*World' newfile 

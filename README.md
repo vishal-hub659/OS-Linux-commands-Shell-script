@@ -232,16 +232,19 @@ egrep 'Linux.*world' newfile
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
+ ![diffile](./img/25.png)
 
 
 egrep l{2} newfile
 ## OUTPUT
 
+ ![diffile](./img/26.png)
 
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
 
+ ![diffile](./img/27.png)
 
 cat > file23
 ```
@@ -259,79 +262,92 @@ cat > file23
 
 sed -n -e '3p' file23
 ## OUTPUT
+ ![diffile](./img/28.png)
 
 
 
 sed -n -e '$p' file23
 ## OUTPUT
+ ![diffile](./img/29.png)
 
 
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
 
+ ![diffile](./img/30.png)
 
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
 
+ ![diffile](./img/31.png)
 
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
-
+ ![diffile](./img/32.png)
 
 
 sed -n -e '1,5p' file23
 ## OUTPUT
-
-
+ ![diffile](./img/33.png)
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
-
+ ![diffile](./img/34.png)
 
 
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
 
+ ![diffile](./img/35.png)
 
 
 seq 10 
 ## OUTPUT
 
+ ![diffile](./img/36.png)
 
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
 
+ ![diffile](./img/37.png)
 
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
 
+ ![diffile](./img/38.png)
 
 
 seq 3 | sed '2a hello'
 ## OUTPUT
+ ![diffile](./img/39.png)
 
 
 
 seq 2 | sed '2i hello'
 ## OUTPUT
+ ![diffile](./img/40.png)
 
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
 
+ ![diffile](./img/41.png)
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
+ ![diffile](./img/42.png)
 
 
 
 sed -n '2,4{s/$/*/;p}' file23
+## OUTPUT
+ ![diffile](./img/43.png)
 
 
 #Sorting File content

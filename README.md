@@ -362,6 +362,8 @@ cat > file21
 sort file21
 ## OUTPUT
 
+![diffile](./img/44.png)
+
 
 cat > file22
 ```
@@ -375,6 +377,7 @@ cat > file22
 uniq file22
 ## OUTPUT
 
+![diffile](./img/45.png)
 
 
 #Using tr command

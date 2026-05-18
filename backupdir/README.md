@@ -416,7 +416,6 @@ cat urllist.txt | tr -d ' ' | tr -s '.'
 tar -cvf backup.tar *
 ## OUTPUT
 
-![diffile](./img/49.png)
 
 mkdir backupdir
  
@@ -427,12 +426,19 @@ cd backupdir
 tar -tvf backup.tar
 ## OUTPUT
 
-![diffile](./img/50.png)
 
 tar -xvf backup.tar
 ## OUTPUT
-![diffile](./img/51.png)
 
+gzip backup.tar
+
+ls .gz
+## OUTPUT
+ 
+gunzip backup.tar.gz
+## OUTPUT
+
+ 
 # Shell Script
 ```
 echo '#!/bin/sh' > my-script.sh
@@ -441,8 +447,6 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
-
-![diffile](./img/52.png)
 
  
 cat << stop > herecheck.txt
@@ -455,7 +459,6 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
-![diffile](./img/53.png)
 
 
 cat < scriptest.sh 
@@ -495,25 +498,25 @@ chmod 777 scriptest.sh
 
 ## OUTPUT
 
- ![diffile](./img/54.png)
-
+ 
 ls file1
 ## OUTPUT
- ![diffile](./img/55.png)
 
 echo $?
 ## OUTPUT 
-
- ![diffile](./img/56.png)
-
 ./one
 bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
-  ![diffile](./img/56.png)
+ 
+abcd
+ 
+echo $?
+ ## OUTPUT
 
 
+ 
 # mis-using string comparisons
 
 cat < strcomp.sh 
@@ -544,7 +547,6 @@ fi
 ```
 ##OUTPUT
 
-  ![diffile](./img/57.png)
 
 
 chmod 755 strcomp.sh
@@ -552,7 +554,6 @@ chmod 755 strcomp.sh
 ./strcomp.sh 
 ## OUTPUT
 
-  ![diffile](./img/57.png)
 
 # check file ownership
 cat < psswdperm.sh 
@@ -579,7 +580,6 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
-  ![diffile](./img/58.png)
 
 # check if with file location
 cat>ifnested.sh 
@@ -627,7 +627,6 @@ fi
 ./ifnested.sh 
 ## OUTPUT
 
-  ![diffile](./img/59.png)
 
 
 # using numeric test comparisons
@@ -671,7 +670,6 @@ $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
 ##OUTPUT
-  ![diffile](./img/60.png)
 
 # check if a file
 cat > ifnested.sh 
@@ -721,7 +719,6 @@ $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
 ##OUTPUT
-  ![diffile](./img/61.png)
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -751,7 +748,6 @@ $ chmod 755 elifcheck.sh
 $ ./elifcheck.sh 
 ## OUTPUT
 
-  ![diffile](./img/62.png)
 
 # testing compound comparisons
 cat> ifcompound.sh 
@@ -767,7 +763,6 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
-  ![diffile](./img/63.png)
 
 # using the case command
 cat >casecheck.sh 

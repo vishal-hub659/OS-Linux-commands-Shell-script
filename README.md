@@ -883,6 +883,9 @@ done
 $ chmod 755 forin1.sh
 
 ## OUTPUT
+
+   ![diffile](./img/68.png)
+
 cat forinfile.sh 
 ```bash
 #!/bin/bash
@@ -905,6 +908,7 @@ Khammam
 
 ## OUTPUT
 
+   ![diffile](./img/68.png)
 
 cat forctype.sh 
 ```bash
@@ -918,6 +922,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
+   ![diffile](./img/69.png)
 
 cat forctype1.sh 
 ```bash
@@ -931,6 +936,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
+   ![diffile](./img/70.png) 
 
 cat fornested1.sh 
 ```bash
@@ -950,7 +956,8 @@ $ chmod 755 fornested1.sh
 $ ./fornested1.sh 
  ## OUTPUT
 
- 
+    ![diffile](./img/71.png) 
+
 cat forbreak.sh 
 ```bash
 #!/bin/bash
@@ -966,6 +973,7 @@ done
 echo "The for loop is completed“
 ```
 ## OUTPUT
+    ![diffile](./img/72.png) 
 
 $ chmod 755 forbreak.sh
  

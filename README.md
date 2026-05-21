@@ -956,7 +956,7 @@ $ chmod 755 fornested1.sh
 $ ./fornested1.sh 
  ## OUTPUT
 
-    ![diffile](./img/71.png) 
+ ![diffile](./img/71.png)
 
 cat forbreak.sh 
 ```bash
@@ -973,7 +973,7 @@ done
 echo "The for loop is completed“
 ```
 ## OUTPUT
-    ![diffile](./img/72.png) 
+ ![diffile](./img/72.png)
 
 $ chmod 755 forbreak.sh
  
@@ -999,7 +999,7 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
-     ![diffile](./img/73.png) 
+ ![diffile](./img/73.png)
 
 cat exread.sh 
 ```bash
@@ -1014,7 +1014,7 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
-     ![diffile](./img/74.png) 
+ ![diffile](./img/74.png)
 
 
  cat exread1.sh
@@ -1028,7 +1028,7 @@ $ chmod 755 exread1.sh
 
 ## OUTPUT
 
-     ![diffile](./img/75.png) 
+ ![diffile](./img/75.png)
 
 
 $ ./exread1.sh 
@@ -1051,6 +1051,8 @@ fi
 ## OUTPUT
  ./funcex.sh 
 
+ ![diffile](./img/75.png)
+
  
  ./funcex.sh 1 2
 
@@ -1067,9 +1069,7 @@ $ chmod 777 argshift.sh
 
 ## OUTPUT
 
-     ![diffile](./img/76.png) 
-
-$ ./argshift.sh 1 2 3
+ ![diffile](./img/76.png)
  
  cat argshift1.sh
 ```bash
@@ -1087,7 +1087,7 @@ done
 $ chmod 777 argshift.sh
 ## OUTPUT
 
-     ![diffile](./img/77.png) 
+ ![diffile](./img/77.png)
 
 $ ./argshift.sh 1 2 3
  
@@ -1102,7 +1102,7 @@ done
 set +x
 ```
 ## OUTPUT
-     ![diffile](./img/78.png) 
+ ![diffile](./img/78.png)
 
  
 cat > nc.awk
@@ -1134,7 +1134,7 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
-      ![diffile](./img/79.png) 
+ ![diffile](./img/79.png)
 
 cat > palindrome.sh
 ```bash
@@ -1163,7 +1163,7 @@ fi
 ```
 ## OUTPUT 
 
-      ![diffile](./img/80.png) 
+ ![diffile](./img/80.png)
 
 
 # RESULT:

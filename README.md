@@ -818,7 +818,7 @@ done
 ``` 
 $ chmod 755 untiltest.sh
  
-     ![diffile](./img/66.png)
+    ![diffile](./img/66.png)
 
  
 cat forin1.sh 
@@ -833,7 +833,7 @@ done
  
 $ chmod 755 forin1.sh
  
-      ![diffile](./img/67.png)
+     ![diffile](./img/67.png)
 
 cat forin2.sh 
 ```bash

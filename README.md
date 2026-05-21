@@ -999,7 +999,8 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
- 
+     ![diffile](./img/73.png) 
+
 cat exread.sh 
 ```bash
 #!/bin/bash
@@ -1013,6 +1014,7 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
+     ![diffile](./img/74.png) 
 
 
  cat exread1.sh
@@ -1026,6 +1028,7 @@ $ chmod 755 exread1.sh
 
 ## OUTPUT
 
+     ![diffile](./img/75.png) 
 
 
 $ ./exread1.sh 
@@ -1063,6 +1066,9 @@ done
 $ chmod 777 argshift.sh
 
 ## OUTPUT
+
+     ![diffile](./img/76.png) 
+
 $ ./argshift.sh 1 2 3
  
  cat argshift1.sh
@@ -1080,6 +1086,9 @@ done
 ```
 $ chmod 777 argshift.sh
 ## OUTPUT
+
+     ![diffile](./img/77.png) 
+
 $ ./argshift.sh 1 2 3
  
 cat argshift.sh
@@ -1093,8 +1102,8 @@ done
 set +x
 ```
 ## OUTPUT
- ./argshift.sh 1 2 3
- 
+     ![diffile](./img/78.png) 
+
  
 cat > nc.awk
 ```bash
@@ -1125,7 +1134,8 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
- 
+      ![diffile](./img/79.png) 
+
 cat > palindrome.sh
 ```bash
 #num=545
@@ -1152,6 +1162,8 @@ else
 fi
 ```
 ## OUTPUT 
+
+      ![diffile](./img/80.png) 
 
 
 # RESULT:

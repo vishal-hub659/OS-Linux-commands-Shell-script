@@ -787,7 +787,8 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
- 
+   ![diffile](./img/64.png)
+
 cat > whiletest
 ```bash
 #!/bin/bash
@@ -803,7 +804,8 @@ $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
  
- 
+    ![diffile](./img/65.png)
+
 cat untiltest.sh 
 ```bash
 \#using the until command
@@ -816,7 +818,8 @@ done
 ``` 
 $ chmod 755 untiltest.sh
  
- 
+     ![diffile](./img/66.png)
+
  
 cat forin1.sh 
 ```bash
@@ -830,7 +833,8 @@ done
  
 $ chmod 755 forin1.sh
  
- 
+      ![diffile](./img/67.png)
+
 cat forin2.sh 
 ```bash
 \#!/bin/bash
